@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Image Gallery</h1>
+
+    <div class="filter-buttons">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="animal">Animals</button>
+        <button data-filter="college">College</button>
+        <button data-filter="food">Food</button>
+        <button data-filter="code">Code</button>
+    </div>
+</header>
+
+<section class="gallery">
+
+    <div class="image animal">
+        <img src="images/animal1.jpeg" alt="">
+    </div>
+
+    <div class="image animal">
+        <img src="images/animal2.jpeg" alt="">
+    </div>
+
+    <div class="image animal">
+        <img src="images/animal3.jpeg" alt="">
+    </div>
+
+    <div class="image college">
+        <img src="images/college1.jpeg" alt="">
+    </div>
+
+    <div class="image college">
+        <img src="images/college2.jpeg" alt="">
+    </div>
+
+    <div class="image college">
+        <img src="images/college3.jpeg" alt="">
+    </div>
+
+    <div class="image food">
+        <img src="images/food1.jpeg" alt="">
+    </div>
+
+    <div class="image food">
+        <img src="images/food2.jpeg" alt="">
+    </div>
+
+    <div class="image food">
+        <img src="images/food3.jpeg" alt="">
+    </div>
+
+    <div class="image code">
+        <img src="images/code1.jpeg" alt="">
+    </div>
+
+    <div class="image code">
+        <img src="images/code2.jpeg" alt="">
+    </div>
+
+    <div class="image code">
+        <img src="images/code3.jpeg" alt="">
+    </div>
+
+</section>
+
+<!-- Lightbox -->
+
+<div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img" src="" alt="">
+
+    <button class="next">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
